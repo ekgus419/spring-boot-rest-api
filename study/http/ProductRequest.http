@@ -20,6 +20,3 @@ Content-Type: application/json
 
 ### 상품 삭제
 DELETE {{apiAddress}}/products/3
-
-
-### 작업하기
