@@ -1,0 +1,22 @@
+### 상품 조회
+GET {{apiAddress}}/products
+
+### 상품 생성
+POST {{apiAddress}}/products
+Content-Type: application/json
+
+{
+  "id" : "3",
+  "name": "Ginger"
+}
+
+### 상품 수정
+PUT {{apiAddress}}/products/3
+Content-Type: application/json
+
+{
+  "name": "Indian Ginger"
+}
+
+### 상품 삭제
+DELETE {{apiAddress}}/products/3
