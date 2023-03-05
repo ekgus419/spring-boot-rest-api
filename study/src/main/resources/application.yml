@@ -1,0 +1,10 @@
+# mariaDB
+# application.properties, application.yml 둘다 설정파일이야 동일한 역할을 하는거고 쓰는 방식만 다른거고
+# 두개 만들어서 충돌이 났던거고 하나 주석해도 안되던데 만들기전에 에러난구
+spring:
+ datasource:
+   url: jdbc:mariadb://115.85.183.61:3306/spring_boot_example
+   username: root
+   password: test
+ jpa:
+   hibernate: create
